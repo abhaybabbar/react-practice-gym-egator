@@ -20,6 +20,7 @@ nav {
 
 .logo {
   width: 7rem;
+  display: block;
 }
 
 /* show only on sm and md screen */
