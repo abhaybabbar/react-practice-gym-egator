@@ -9,6 +9,7 @@ import Home from "./pages/home/Home";
 import NotFound from "./pages/notFound/NotFound";
 import Plans from "./pages/plans/Plans";
 import Trainers from "./pages/trainers/Trainers";
+import Footer from "./components/Footer";
 
 const App = () => {
   return (
@@ -23,6 +24,7 @@ const App = () => {
         <Route path="trainers" element={<Trainers />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
+      <Footer />
     </BrowserRouter>
   );
 };
